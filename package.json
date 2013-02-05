@@ -1,0 +1,21 @@
+{
+  "name": "phonegap-start-testling-mocha",
+  "version": "0.0.0",
+  "devDependencies": {
+    "mocha": "~1.7.4"
+  },
+  "testling": {
+    "browsers": [
+        "ie9", "ie10",
+        "firefox/15", "chrome/22",
+        "opera/12", "safari/5.1"
+    ],
+    "harness" : "mocha-bdd",
+    "scripts": [
+      "www/js/index.js",
+      "www/spec/helper.js",
+      "www/spec/index.js"
+    ]
+  },
+  "license": "MIT"
+}

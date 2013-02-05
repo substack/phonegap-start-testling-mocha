@@ -1,6 +1,7 @@
 # Hello World PhoneGap Application
 
 > A Hello World application built with PhoneGap
+> with [testling-ci](http://ci.testling.com) and [mocha](http://visionmedia.github.com/mocha/)
 
 ## PhoneGap Build
 
@@ -15,6 +16,10 @@ Create a new app with the following repository:
 ## Run Tests
 
     /www/spec.html
+
+To configure your tests to run on [testling-ci](http://ci.testling.com), just
+add a package.json like the one in this package and setup a github webhook for
+`http://git.testling.com`.
 
 ## Issues and Pull Requests
 
