@@ -3,6 +3,8 @@
 > A Hello World application built with PhoneGap
 > with [testling-ci](http://ci.testling.com) and [mocha](http://visionmedia.github.com/mocha/)
 
+[![browser support](http://ci.testling.com/substack/phonegap-start-testling-mocha.png)](http://ci.testling.com/substack/phonegap-start-testling-mocha)
+
 ## PhoneGap Build
 
 Create a new app with the following repository:
